@@ -14,7 +14,7 @@
   "homepage": "https://wp.netlify.com",
   "dependencies": {
     "axios": "^0.17.1",
-    "vue": "^2.5.9",
+    "vue": "^2.5.17",
     "vue-analytics": "^5.7.1",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
