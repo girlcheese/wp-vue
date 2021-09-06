@@ -219,12 +219,12 @@ aws4@^1.2.1, aws4@^1.6.0:
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.6.0.tgz#83ef5ca860b2b32e4a0deedee8c771b9db57471e"
 
-axios@^0.17.1:
-  version "0.17.1"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-0.17.1.tgz#2d8e3e5d0bdbd7327f91bc814f5c57660f81824d"
+axios@^0.21.3:
+  version "0.21.3"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.3.tgz#f85d9b747f9b66d59ca463605cedf1844872b82e"
+  integrity sha512-JtoZ3Ndke/+Iwt5n+BgSli/3idTvpt5OjKyoCmz4LX5+lPiY5l7C1colYezhlxThjNa/NhngCUWZSZFypIFuaA==
   dependencies:
-    follow-redirects "^1.2.5"
-    is-buffer "^1.1.5"
+    follow-redirects "^1.14.0"
 
 babel-code-frame@^6.11.0, babel-code-frame@^6.26.0:
   version "6.26.0"
@@ -1743,11 +1743,10 @@ flatten@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/flatten/-/flatten-1.0.2.tgz#dae46a9d78fbe25292258cc1e780a41d95c03782"
 
-follow-redirects@^1.2.5:
-  version "1.2.6"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.2.6.tgz#4dcdc7e4ab3dd6765a97ff89c3b4c258117c79bf"
-  dependencies:
-    debug "^3.1.0"
+follow-redirects@^1.14.0:
+  version "1.14.3"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.3.tgz#6ada78118d8d24caee595595accdc0ac6abd022e"
+  integrity sha512-3MkHxknWMUtb23apkgz/83fDoe+y+qr0TdgacGIA7bew+QLBo3vdgEN2xEsuXNivpFy4CyDhBBZnNZOtalmenw==
 
 for-in@^1.0.1:
   version "1.0.2"
@@ -3431,10 +3430,6 @@ preserve@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/preserve/-/preserve-0.2.0.tgz#815ed1f6ebc65926f865b310c0713bcb3315ce4b"
 
-prettier@^1.9.2:
-  version "1.9.2"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.9.2.tgz#96bc2132f7a32338e6078aeb29727178c6335827"
-
 private@^0.1.6, private@^0.1.7:
   version "0.1.8"
   resolved "https://registry.yarnpkg.com/private/-/private-0.1.8.tgz#2381edb3689f7a53d653190060fcf822d2f368ff"
@@ -3975,6 +3970,11 @@ sntp@2.x.x:
   resolved "https://registry.yarnpkg.com/sntp/-/sntp-2.1.0.tgz#2c6cec14fedc2222739caf9b5c3d85d1cc5a2cc8"
   dependencies:
     hoek "4.x.x"
+
+snyk@^1.161.1:
+  version "1.697.0"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.697.0.tgz#3baad3794676754a37973312a34f266dd6b16f04"
+  integrity sha512-V07xQ53npbVQw9DldJr5SkGlFTUtlNxCCL5JUFA79EWY6pm8q6+eE/pzXif3/ywcF2K1/yiNM9DHmL5N+lGHmQ==
 
 sockjs-client@1.1.4:
   version "1.1.4"
